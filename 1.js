@@ -3,10 +3,10 @@ $(document).ready(function(){  //событие ready фуния выполни�
  $.get(
     "http://api.openweathermap.org/data/2.5/weather",
     {  //"id": "569143 " , 
-     " q": "London",
-      "apiid": "27a1d09d4954cd2b045e899fe11c76fb",
+     "q": "London,uk",
+       "apiid": "76d3caedf25a7268a510458885660bf6",
    }, 
     function(data) {console.log(data); }
  ) ;  
 }
-);
+); 
